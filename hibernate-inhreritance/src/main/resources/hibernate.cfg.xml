@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD//EN" "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="hibernate.connection.driver_class">
+            com.mysql.cj.jdbc.Driver
+        </property>
+        <property name="hibernate.connection.url">
+            jdbc:mysql://localhost:3306/hibernate_inheritance?createDatabaseIfNotExist=true
+        </property>
+        <property name="hibernate.connection.username">root</property>
+        <property name="hibernate.connection.password"></property>
+        <property name="hibernate.connection.pool_size">50</property>
+        <property name="show_sql">true</property>
+        <property name="hibernate.format_sql">true</property>
+        <property name="hibernate.hbm2ddl.auto">create</property>
+
+<!--                <mapping class="org.example.mappedsuperclass.Employee" />-->
+<!--                <mapping class="org.example.mappedsuperclass.Customer" />-->
+<!--                <mapping class="org.example.mappedsuperclass.User" />-->
+
+<!--                <mapping class="org.example.tableperclass.Car" />-->
+<!--                <mapping class="org.example.tableperclass.Motorcycle" />-->
+<!--                <mapping class="org.example.tableperclass.Vehicle" />-->
+<!--                <mapping class="org.example.tableperclass.Owner" />-->
+
+<!--                <mapping class="org.example.joined.Computer" />-->
+<!--                <mapping class="org.example.joined.Phone" />-->
+<!--                <mapping class="org.example.joined.Device" />-->
+<!--                <mapping class="org.example.joined.DeviceOwner" />-->
+
+        <mapping class="org.example.singletable.Account" />
+        <mapping class="org.example.singletable.BasicAccount" />
+        <mapping class="org.example.singletable.PremiumAccount" />
+        <mapping class="org.example.singletable.AccountOwner" />
+    </session-factory>
+</hibernate-configuration>

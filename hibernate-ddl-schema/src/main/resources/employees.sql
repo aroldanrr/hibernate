@@ -1,0 +1,1 @@
+INSERT INTO employess(dni, email, nss, salary, age, check_in_time, check_out_time) VALUES ("77124303","e4@email.com","1211",5000.0, 20, "12:00:00","20:00:00"),("77124103","e5@email.com","1212",5000.0, 22, "12:30:00","20:30:00");
