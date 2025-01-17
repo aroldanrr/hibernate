@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="62af25a7-165b-423a-8b87-aec5d60e047d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../hibernate-enums/src/main/java/org/example/HibernateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate-enums/src/main/java/org/example/converter/CategoryEnumConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate-enums/src/main/java/org/example/model/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate-enums/src/main/java/org/example/model/EmployeeCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate-enums/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate-enums/src/test/java/org/example/EnumTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate-equals-hashcode/src/main/java/org/example/HibernateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate-equals-hashcode/src/main/java/org/example/model/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate-equals-hashcode/src/main/java/org/example/model/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate-equals-hashcode/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate-equals-hashcode/src/test/java/org/example/EqualsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate-equals-hashcode/src/test/java/org/example/HasCodeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate-filters/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate-filters/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate-filters/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate-filters/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate-filters/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate-filters/src/main/java/com/example/HibernateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate-filters/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/HibernateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/model/manytomany/Project.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/model/manytomany/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/model/manytomany/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/model/manytomany/UserProject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/model/maps/Author.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/model/maps/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/model/onetomany/Company.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/model/onetomany/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/ManyToManyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/MapsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/OneToManyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate-relationships/src/main/java/com/example/HibernateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate-relationships/src/main/java/com/example/model/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate-relationships/src/main/java/com/example/model/Author.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate-relationships/src/main/java/com/example/model/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate-relationships/src/main/java/com/example/model/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate-relationships/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate-relationships/src/test/java/com/example/ManyToManyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate-relationships/src/test/java/com/example/ManyToOneTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate-relationships/src/test/java/com/example/OneToManyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate-relationships/src/test/java/com/example/OneToOneTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate-naming-strategy/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate-naming-strategy/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate-naming-strategy/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate-naming-strategy/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tips-hibernate-entity" beforeDir="false" afterPath="$PROJECT_DIR$/../tips-hibernate-entity" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2riBT7dfk4WApxIjg7i7OVPLeM0" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.ManyToManyTest.manyToMany.executor": "Run",
+    "JUnit.MapsTest.mapTest.executor": "Run",
+    "JUnit.OneToManyTest.oneToManyTest.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Antonio/dev/tutoriales/hibernate/hibernate-relationships-complex",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Antonio\dev\tutoriales\hibernate\hibernate-relationships-complex\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ManyToManyTest.manyToMany">
+    <configuration name="ManyToManyTest.manyToMany" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hibernate-relationships-complex" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example" />
+      <option name="MAIN_CLASS_NAME" value="com.example.ManyToManyTest" />
+      <option name="METHOD_NAME" value="manyToMany" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MapsTest.mapTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hibernate-relationships-complex" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example" />
+      <option name="MAIN_CLASS_NAME" value="com.example.MapsTest" />
+      <option name="METHOD_NAME" value="mapTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OneToManyTest.oneToManyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hibernate-relationships-complex" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example" />
+      <option name="MAIN_CLASS_NAME" value="com.example.OneToManyTest" />
+      <option name="METHOD_NAME" value="oneToManyTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ManyToManyTest.manyToMany" />
+        <item itemvalue="JUnit.MapsTest.mapTest" />
+        <item itemvalue="JUnit.OneToManyTest.oneToManyTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.22562.218" />
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-IU-243.22562.218" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="62af25a7-165b-423a-8b87-aec5d60e047d" name="Changes" comment="" />
+      <created>1737032022021</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1737032022021</updated>
+      <workItem from="1737032022956" duration="4437000" />
+      <workItem from="1737097881936" duration="805000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

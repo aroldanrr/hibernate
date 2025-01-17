@@ -7,7 +7,7 @@
             com.mysql.cj.jdbc.Driver
         </property>
         <property name="hibernate.connection.url">
-            jdbc:mysql://localhost:3306/hibernate_naming_strategy?createDatabaseIfNotExist=true
+            jdbc:mysql://localhost:3306/hibernate_relationships_complex?createDatabaseIfNotExist=true
         </property>
         <property name="hibernate.connection.username">root</property>
         <property name="hibernate.connection.password"></property>
@@ -19,15 +19,25 @@
         <property name="hibernate.hbm2ddl.auto">create</property>
         <!--        <property name="hibernate.hbm2ddl.auto">create-drop</property>-->
         <!--        <property name="hibernate.hbm2ddl.auto">update</property>-->
-        <property name="hibernate.hbm2ddl.import_files">employees.sql</property>
+<!--        <property name="hibernate.hbm2ddl.import_files">employees.sql</property>-->
         <!--        <property name="hibernate.hbm2ddl.import_files">employees.sql,employees2.sql</property>-->
 
         <!--        ESTO SIRVE PARA DEFINIR EL MODO DE ESCRITURA DE LOS NOMBRES TANTO DE LA TABLA COMO DE LAS COLUMNAS
             SE PUEDE CONFIGURAR MANUALMENTE TAMBIEN CAMBIANDO ESTO: org.hibernate.boot.model.naming.CamelCaseToUnderscoresNamingStrategy-->
-        <property name="hibernate.physical_naming_strategy">org.hibernate.boot.model.naming.CamelCaseToUnderscoresNamingStrategy</property>
+<!--        <property name="hibernate.physical_naming_strategy">org.hibernate.boot.model.naming.CamelCaseToUnderscoresNamingStrategy</property>-->
 
 
-        <mapping class="org.example.model.SmartPhone" />
+        <mapping class="com.example.model.manytomany.Project" />
+        <mapping class="com.example.model.manytomany.User" />
+        <mapping class="com.example.model.manytomany.UserProject" />
+        <mapping class="com.example.model.manytomany.Role" />
+
+
+        <mapping class="com.example.model.maps.Author" />
+        <mapping class="com.example.model.maps.Book" />
+
+        <mapping class="com.example.model.onetomany.Company" />
+        <mapping class="com.example.model.onetomany.Employee" />
 
     </session-factory>
 </hibernate-configuration>

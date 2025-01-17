@@ -7,7 +7,7 @@
             com.mysql.cj.jdbc.Driver
         </property>
         <property name="hibernate.connection.url">
-            jdbc:mysql://localhost:3306/hibernate_naming_strategy?createDatabaseIfNotExist=true
+            jdbc:mysql://localhost:3306/hibernate_enums?createDatabaseIfNotExist=true
         </property>
         <property name="hibernate.connection.username">root</property>
         <property name="hibernate.connection.password"></property>
@@ -27,7 +27,7 @@
         <property name="hibernate.physical_naming_strategy">org.hibernate.boot.model.naming.CamelCaseToUnderscoresNamingStrategy</property>
 
 
-        <mapping class="org.example.model.SmartPhone" />
+        <mapping class="org.example.model.Employee" />
 
     </session-factory>
 </hibernate-configuration>
